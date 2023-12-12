@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> mande mande fotos da amora imediatamente </title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fce4ec;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      color: #e91e63;
+    }
+
+    p {
+      color: #333;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .balloon {
+      display: inline-block;
+      font-size: 36px;
+      margin: 0 5px;
+      animation: float 2s infinite;
+    }
+
+    .balloon:nth-child(odd) {
+      color: #ff4081;
+    }
+
+    .balloon:nth-child(even) {
+      color: #e91e63;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>🎉 FELIZ ANIVERSARIOOOOOOO VIC 🎂</h1>
+  <p>TUDO DE BOM</p>
+
+  <div class="balloon">🎈</div>
+  <div class="balloon">🎈</div>
+  <div class="balloon">🎈</div>
+  <div class="balloon">🎈</div>
+  <div class="balloon">🎈</div>
+</div>
+
+</body>
+</html>
